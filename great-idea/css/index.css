@@ -2,7 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-
+/* 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+/* article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -45,23 +45,22 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-}
+} */
 
 /* Set every element's box-sizing to border-box */
-* {
+/* * {
     box-sizing: border-box;
-}
+} */
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+/* h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
-}
+}  */
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
@@ -89,33 +88,31 @@ p {
 }
 
 .container {
-	display: block;
+	display: flex;
+	flex-wrap: wrap;
 	margin: auto;
 	width: 1400px;
+	height: 800px;
 }
 
-.container header nav a {
+ .header {
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: row;
+	width: 300px;
+	height: 50px;
+}
+
+nav a {
 	background: darkgray;
 	border-radius: 5px;
-	box-sizing: border-box;
-	float: left;
 	color: black;
-	margin: 30px;
 	text-align: center;
 	text-decoration: none;
-	width: 100px;
 }
 
 .container header nav a:hover {
 	color: white;
-}
-
-.logo  {
-	display: inline-block;
-	margin-top: 20px;
-	width: 200px;
-	margin: 30px;
-	float: right; 
 }
 
 .intro-content .title {
