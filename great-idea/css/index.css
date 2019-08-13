@@ -91,36 +91,28 @@ p {
 	display: flex;
 	flex-wrap: wrap;
 	margin: auto;
-	width: 1400px;
-	height: 800px;
+	width: 1200px;
+	height: 1000px;
 }
 
  .header {
-	display: flex;
-	flex-wrap: nowrap;
-	flex-direction: row;
-	width: 300px;
-	height: 50px;
+	
 }
 
-nav a {
-	background: darkgray;
-	border-radius: 5px;
-	color: black;
-	text-align: center;
-	text-decoration: none;
-}
 
 .container header nav a:hover {
 	color: white;
 }
 
+.logo {
+
+}
+
 .intro-content .title {
-	display: inline-block;
-	height: 200px;
-	width: 400px;
-	margin: 75px;
-	box-sizing: border-box;
+
+}
+
+.title {
 }
 
 button {
@@ -138,57 +130,31 @@ button:hover {
 }
 
 .header-img {
-	display: inline-block;
-	width: 50px;
-	height: 400px;
-	margin: 80px;
+	
 }
 
 .features-content{
-	width: 550px;
-	height: 150px;
-	display: inline-block;
-	margin: 50px;
-	padding: 20px;
+	
 }
 
 .about-content {
-	width: 550px;
-	height: 150px;
-	display: inline-block;
-	margin: 50px;
-	padding: 20px;
+	
 }
 
 .content-img {
-	width: 63%;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+	
 }
 
 .services-content {
-	width: 275px;
-	height:200px;
-	display: inline-block;
-	margin: 50px;
-	padding: 20px;
+	
 }
 
 .product-content {
-	width: 275px;
-	height: 200px;
-	display: inline-block;
-	margin: 50px;
-	padding: 20px;
+	
 }
 
 .vision-content {
-	width: 275px;
-	height: 200px;
-	display: inline-block;
-	margin: 50px;
-	padding: 20px;
+	
 }
 
 .contact-content h3 {
