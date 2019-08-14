@@ -52,9 +52,9 @@ table {
     box-sizing: border-box;
 } */
 
-html, body {
+/* html, body {
     height: 100%;
-}
+} */
 
 /* h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
@@ -64,7 +64,7 @@ html, body {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
-* {
+/* * {
 	color: black;
 	font-family: 'Raleway', sans-serif;
 }
@@ -164,4 +164,219 @@ button:hover {
 
 .contact-content address {
 	line-height: 1;
+} */
+
+* {
+	color: black;
 }
+
+html, body {
+	height: 100%;
+	margin: auto;
+	padding: 10px;
+}
+
+h1 {
+	font-family: 'Bangers', cursive;
+	margin: auto;
+	font-size: 30px;
+	letter-spacing: 1px;
+}
+
+h2, h3 {
+	font-family: 'Bangers', cursive;
+	font-size: 20px;
+}
+
+p {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 16px;
+}
+
+hr {
+	border: 1px solid black;
+}
+
+.menubar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100px;
+  }
+  
+  nav {
+	display: flex;
+	justify-content: space-around;
+	width: 50%;
+  }
+  
+  nav a {
+	display: flex;
+	text-decoration: none;
+	color: gray;
+	font-size: 20px;
+  }
+  
+  a:hover {
+	color: black;
+  }
+
+  .header-image {
+	display: block;
+	margin: 0 auto;
+  }
+
+  .services {
+	diplay: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+  }
+  
+  .main-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	height: 900px;
+	justify-content: center;
+  }
+  
+  .digital-design {
+	background: lightgray;
+	border: 1px solid black;
+	display: flex;
+	width: 500px;
+	height: 250px;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	margin: auto;
+	padding: 15px;
+  }
+  
+  .ux-ui {
+	background: lightgray;
+	border: 1px solid black;
+	display: flex;
+	width: 500px;
+	height: 250px;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	margin: auto;
+	padding: 15px;
+  }
+  
+  .digital-marketing {
+	background: lightgray;
+	border: 1px solid black;
+	display: flex;
+	width: 500px;
+	height: 250px;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	margin: auto;
+	padding: 15px;
+  }
+  
+  .web-development {
+	background: lightgray;
+	border: 1px solid black;
+	display: flex;
+	width: 500px;
+	height: 250px;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	margin: auto;
+	padding: 15px;
+  }
+  
+  .ios-development {
+	background: lightgray;
+	border: 1px solid black;
+	display: flex;
+	width: 500px;
+	height: 250px;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	margin: auto;
+	padding: 15px;
+  }
+  
+  .android-development {
+	background: lightgray;
+	border: 1px solid black;
+	display: flex;
+	width: 500px;
+	height: 250px;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	margin: auto;
+	padding: 15px;
+  }
+  
+  button {
+	background: white;
+	font-size: 12px;
+	border: 1px solid black;
+	border-radius: 5px;
+	width: 150px;
+	padding: 10px;
+  }
+  
+  button:hover {
+	background: gray;
+	color: white;
+  }
+  
+  .container-two {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	height: 500px;
+	justify-content: center;
+  }
+  
+  .facts {
+	
+  }
+  
+
+
+
+  /* Box-model edits below */
+
+/* 
+header nav a {
+	font-size: 25px;
+	display: inline-block;
+	color: gray;
+	text-decoration: none;
+	margin: 20px 50px 20px 50px;
+}
+
+.logo-image {
+	float: right;
+	margin: 20px;
+}
+
+.header-image {
+	margin: 40px auto;
+}
+
+.services {
+	height: 150px;
+	width: 100%;
+}
+
+.container {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: center;
+} */
+
