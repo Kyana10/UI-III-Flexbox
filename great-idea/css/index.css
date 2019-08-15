@@ -177,13 +177,10 @@ p {
 	padding: 10px;
   }
 
+/* END OF NEW CSS EDITS */
 
-  /* * {
-	color: black;
-	font-family: 'Raleway', sans-serif;
-}
-
-h1 {
+/* OLD CSS */
+/* h1 {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 100px;
 	font-weight: bold;
@@ -209,24 +206,8 @@ p {
 	height: 1000px;
 }
 
- .header {
-	
-}
-
-
 .container header nav a:hover {
 	color: white;
-}
-
-.logo {
-
-}
-
-.intro-content .title {
-
-}
-
-.title {
 }
 
 button {
@@ -243,34 +224,6 @@ button:hover {
 	color: darkgray;
 }
 
-.header-img {
-	
-}
-
-.features-content{
-	
-}
-
-.about-content {
-	
-}
-
-.content-img {
-	
-}
-
-.services-content {
-	
-}
-
-.product-content {
-	
-}
-
-.vision-content {
-	
-}
-
 .contact-content h3 {
 	padding: 0;
 	margin: 0 0 10px 0;
@@ -278,14 +231,14 @@ button:hover {
 
 .contact-content address {
 	line-height: 1;
-} */
+}  */
 
 
 /* .container {
 	width: 880px;
     margin: auto;
     margin-top: 40px;
-} */
+} 
 
 
 /* 
